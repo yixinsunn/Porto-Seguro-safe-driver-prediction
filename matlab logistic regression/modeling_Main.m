@@ -1,7 +1,5 @@
-addpath('C:\Program Files\MATLAB\R2016b\toolbox\pmtk3-master');
 initPmtk3;
 clear; clc; close all;
-cd C:\Users\yixin\Desktop\Machine_Learning_Projects\Safe_Driver_Prediction\Matlab;
 
 %% Read data, and drop 'ps_calc_' features
 train = csvread('..\input\train.csv', 1, 0);
